@@ -65,14 +65,14 @@ When monitoring Amazon S3, there are several key metrics you should keep an eye 
 * For Storage location, choose an existing S3 bucket or create a new one where the logs will be stored.
 
 
-![img1]()
+![img1](https://github.com/DNcrypter/AWS-S3-bucket-activity-monitoring/blob/main/images/img1.png)
 
 ##### 3) Configure the trail settings:
 * Under Management events, ensure that Read/Write events is selected based on your requirements.
 * For Data events, select S3 and choose the specific S3 bucket you want to monitor. You can select All current and future S3 buckets to log events for all S3 buckets in the account or select specific buckets.
 * Ensure that both Read events and Write events are selected to capture all types of access and changes.
 
-![img1]() 
+![img2](https://github.com/DNcrypter/AWS-S3-bucket-activity-monitoring/blob/main/images/img2.png) 
 
 ##### 4) Optional (but recommended) settings:
 * Enable Log file validation for additional security.
