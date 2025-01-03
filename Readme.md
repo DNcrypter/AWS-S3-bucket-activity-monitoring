@@ -19,7 +19,7 @@ After creating S3 bucket main challange is to monitor and record its performance
 
 When monitoring Amazon S3, there are several key metrics you should keep an eye on to ensure optimal performance, security, and cost management. These metrics can be divided into categories such as usage, performance, and security.
 
-### Request metrics
+### ◉ Request metrics
 #### 1) Get requests :
 * Counts the number of GET requests made to S3.
 
@@ -33,7 +33,7 @@ When monitoring Amazon S3, there are several key metrics you should keep an eye 
 * Tracks the number of LIST requests made to S3.
 
 
-### Security metrics
+### ◉ Security metrics
 #### 1) Bucket policies
 * Monitors changes to bucket policies to ensure they comply with security standards.
 
@@ -44,7 +44,7 @@ When monitoring Amazon S3, there are several key metrics you should keep an eye 
 * Monitors whether any buckets or objects are publicly accessible.
 
 
-### Performance metrics
+### ◉ Performance metrics
 #### 1) First byte latency
 * Measures the time it takes for the first byte of an object to be received from S3.
 
@@ -56,7 +56,7 @@ When monitoring Amazon S3, there are several key metrics you should keep an eye 
 
 
 ## AWS S3 monitoring using CloudTrial
-### Creating a Trail in CloudTrail
+### ◉ Creating a Trail in CloudTrail
 ##### 1) Sign in to the AWS Management Console and open the CloudTrail console.
 
 ##### 2) Create a trail:
@@ -83,7 +83,7 @@ When monitoring Amazon S3, there are several key metrics you should keep an eye 
 __Note :__ Ensure that the CloudTrail has the necessary permissions to log events to the S3 bucket. If not, configure the necessary bucket policy.
 
 
-### Analyzing AWS S3 logs
+### ◉ Analyzing AWS S3 logs
 Once CloudTrail is configured to log S3 bucket events, it's important to note that CloudTrail itself does not perform log analysis. Instead, you can analyze the logs using several methods:
 
 #### 1) AWS CloudWatch Logs:
